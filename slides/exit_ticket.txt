@@ -1,0 +1,29 @@
+# Exit Ticket — Teknologi Cerdas
+---
+
+1. Lapisan mana yang paling saya pahami?
+
+**Jawaban:**
+Saya Paling memahami lapisan Data karena saya cukup familiar dengan proses mengolah dan memahami 
+struktur data, seperti membaca dataset,Melakukan validasi, serta menyiapkan data sebelum digunakan untuk analisis. 
+Menurut saya, tahap ini juga menjadi dasar penting sebelum data digunakan pada proses Business Intelligence, Machine Learning maupun LLM Analyst.
+
+---
+
+2. Lapisan mana yang masih saya campuradukkan?
+
+**Jawaban:**
+Saya masih sering mencampuradukkan lapisan Machine Learning (ML) dan LLM Analyst (vAI) 
+karena keduanya sama-sama menghasilkan output terkait pelanggan. Awalnya saya mengira LLM juga melakukan prediksi seperti ML, 
+tetapi setelah mempelajarinya lebih dalam, saya memahami bahwa ML menghasilkan probabilitas berdasarkan pola dari data historis, 
+sedangkan LLM menggunakan hasil tersebut untuk menghasilkan rekomendasi dalam bahasa alami dan tidak melakukan proses prediksi seperti model ML.
+---
+
+3. Bukti apa yang membuat sebuah sistem layak disebut "cerdas" dan bertanggung jawab?
+Jawaban:
+Menurut saya, sebuah sistem layak disebut "cerdas" bukan hanya karena akurasi prediksinya tinggi, 
+tetapi karena ia dapat menjelaskan dasarnya. Dalam proyek ini, ML memberikan probabilitas churn, 
+tetapi angka itu baru bermakna ketika didukung oleh bukti dari data (feature_importance, riwayat transaksi) 
+dan disampaikan dengan jelas oleh LLM. Sistem yang "bertanggung jawab" juga harus jujur tentang batasannya — seperti catatan dalam prompt vAI bahwa probabilitas bukan bukti sebab-akibat, dan model tidak boleh mengarang fakta pelanggan.
+
+---
