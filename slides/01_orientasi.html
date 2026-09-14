@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.31">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; Panduan Mahasiswa – Teknologi Cerdas</title>
+<title>5&nbsp; Teknologi Cerdas – Teknologi Cerdas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -61,25 +64,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./RPS_Teknologi_Cerdas.html" rel="next">
-<link href="./PENGANTAR_KULIAH.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../slides/02_kaggle_problem_framing.html" rel="next">
+<link href="../RPS_Teknologi_Cerdas.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -94,17 +97,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
   }
 }</script>
 
@@ -117,13 +120,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PANDUAN_MAHASISWA.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Mahasiswa</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../slides/01_orientasi.html">Slide Perkuliahan</a></li><li class="breadcrumb-item"><a href="../slides/01_orientasi.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Teknologi Cerdas</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Mencari" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -135,37 +138,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Teknologi Cerdas</a> 
+      <a href="../">Teknologi Cerdas</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Mencari"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Teknologi Cerdas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./PENGANTAR_KULIAH.html" class="sidebar-item-text sidebar-link">
+  <a href="../PENGANTAR_KULIAH.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pengantar Kuliah Teknologi Cerdas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./PANDUAN_MAHASISWA.html" class="sidebar-item-text sidebar-link active">
+  <a href="../PANDUAN_MAHASISWA.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Mahasiswa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./RPS_Teknologi_Cerdas.html" class="sidebar-item-text sidebar-link">
+  <a href="../RPS_Teknologi_Cerdas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Rencana Pembelajaran Semester — Teknologi Cerdas</span></span></a>
   </div>
 </li>
@@ -173,104 +176,104 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Slide Perkuliahan</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alihkan bagian">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/01_orientasi.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/01_orientasi.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Teknologi Cerdas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/02_kaggle_problem_framing.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/02_kaggle_problem_framing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Kaggle &amp; Problem Framing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/03_data_semantics_bi.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/03_data_semantics_bi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data Semantics</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/04_data_prep_feature_engineering.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/04_data_prep_feature_engineering.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Preparation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/05_business_intelligence.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/05_business_intelligence.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Business Intelligence</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/06_ml_fundamentals.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/06_ml_fundamentals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Machine Learning Fundamentals</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/07_ml_pipeline.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/07_ml_pipeline.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">ML Pipeline Engineering</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/08_uts_code_defense.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/08_uts_code_defense.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">UTS: Code Defense</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/09_evaluation_imbalance.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/09_evaluation_imbalance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Evaluasi Model</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/10_interpretability_limits.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/10_interpretability_limits.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Interpretability &amp; Limits</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/11_llm_fundamentals.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/11_llm_fundamentals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">LLM Fundamentals</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/12_ml_llm_grounding.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/12_ml_llm_grounding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">ML + LLM Grounding</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/13_streamlit_integration.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/13_streamlit_integration.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Intelligent Application</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/14_adapt_create_sprint.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/14_adapt_create_sprint.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Adapt &amp; Create Sprint</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/15_verification_ethics.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/15_verification_ethics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Verification &amp; Ethics</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/16_paper_defense.html" class="sidebar-item-text sidebar-link">
+  <a href="../slides/16_paper_defense.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Paper &amp; Final Defense</span></span></a>
   </div>
 </li>
@@ -280,26 +283,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Proyek dan Penilaian</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alihkan bagian">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./PENJELASAN_KODE_REFERENSI.html" class="sidebar-item-text sidebar-link">
+  <a href="../PENJELASAN_KODE_REFERENSI.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Penjelasan Kode Proyek Referensi</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rubrik_proyek.html" class="sidebar-item-text sidebar-link">
+  <a href="../rubrik_proyek.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Rubrik Proyek Teknologi Cerdas</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paper_akhir_template.html" class="sidebar-item-text sidebar-link">
+  <a href="../paper_akhir_template.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Judul Proyek Teknologi Cerdas</span></span></a>
   </div>
 </li>
@@ -307,13 +310,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+  <a href="../summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Referensi Data dan Rancangan Business Intelligence</span></a>
   </div>
 </li>
@@ -324,29 +327,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Daftar Isi</h2>
    
   <ul>
-  <li><a href="#fork-dan-identitas" id="toc-fork-dan-identitas" class="nav-link active" data-scroll-target="#fork-dan-identitas"><span class="header-section-number">3.1</span> 1. Fork dan identitas</a></li>
-  <li><a href="#branch-dan-commit" id="toc-branch-dan-commit" class="nav-link" data-scroll-target="#branch-dan-commit"><span class="header-section-number">3.2</span> 2. Branch dan commit</a></li>
-  <li><a href="#memilih-jalur" id="toc-memilih-jalur" class="nav-link" data-scroll-target="#memilih-jalur"><span class="header-section-number">3.3</span> 3. Memilih jalur</a>
+  <li><a href="#minggu-1" id="toc-minggu-1" class="nav-link active" data-scroll-target="#minggu-1"><span class="header-section-number">6</span> Minggu 1</a>
   <ul class="collapse">
-  <li><a href="#reproduce" id="toc-reproduce" class="nav-link" data-scroll-target="#reproduce"><span class="header-section-number">3.3.1</span> Reproduce</a></li>
-  <li><a href="#adapt" id="toc-adapt" class="nav-link" data-scroll-target="#adapt"><span class="header-section-number">3.3.2</span> Adapt</a></li>
-  <li><a href="#create" id="toc-create" class="nav-link" data-scroll-target="#create"><span class="header-section-number">3.3.3</span> Create</a></li>
+  <li><a href="#teknologi-cerdas-bukan-satu-model" id="toc-teknologi-cerdas-bukan-satu-model" class="nav-link" data-scroll-target="#teknologi-cerdas-bukan-satu-model"><span class="header-section-number">6.1</span> Teknologi Cerdas bukan satu model</a></li>
+  <li><a href="#pertanyaan-pembuka" id="toc-pertanyaan-pembuka" class="nav-link" data-scroll-target="#pertanyaan-pembuka"><span class="header-section-number">6.2</span> Pertanyaan pembuka</a></li>
+  <li><a href="#empat-jenis-kemampuan" id="toc-empat-jenis-kemampuan" class="nav-link" data-scroll-target="#empat-jenis-kemampuan"><span class="header-section-number">6.3</span> Empat jenis kemampuan</a></li>
+  <li><a href="#reference-project" id="toc-reference-project" class="nav-link" data-scroll-target="#reference-project"><span class="header-section-number">6.4</span> Reference project</a></li>
+  <li><a href="#kontrak-belajar" id="toc-kontrak-belajar" class="nav-link" data-scroll-target="#kontrak-belajar"><span class="header-section-number">6.5</span> Kontrak belajar</a></li>
+  <li><a href="#originality-ladder" id="toc-originality-ladder" class="nav-link" data-scroll-target="#originality-ladder"><span class="header-section-number">6.6</span> Originality ladder</a>
+  <ul class="collapse">
+  <li><a href="#c-reproduce" id="toc-c-reproduce" class="nav-link" data-scroll-target="#c-reproduce"><span class="header-section-number">6.6.1</span> C — REPRODUCE</a></li>
+  <li><a href="#b-adapt" id="toc-b-adapt" class="nav-link" data-scroll-target="#b-adapt"><span class="header-section-number">6.6.2</span> B — ADAPT</a></li>
+  <li><a href="#a-create" id="toc-a-create" class="nav-link" data-scroll-target="#a-create"><span class="header-section-number">6.6.3</span> A — CREATE</a></li>
   </ul></li>
-  <li><a href="#bukti-perkembangan" id="toc-bukti-perkembangan" class="nav-link" data-scroll-target="#bukti-perkembangan"><span class="header-section-number">3.4</span> 4. Bukti perkembangan</a></li>
-  <li><a href="#checklist-sebelum-pengumpulan" id="toc-checklist-sebelum-pengumpulan" class="nav-link" data-scroll-target="#checklist-sebelum-pengumpulan"><span class="header-section-number">3.5</span> 5. Checklist sebelum pengumpulan</a></li>
-  <li><a href="#yang-dikumpulkan" id="toc-yang-dikumpulkan" class="nav-link" data-scroll-target="#yang-dikumpulkan"><span class="header-section-number">3.6</span> 6. Yang dikumpulkan</a></li>
+  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab"><span class="header-section-number">6.7</span> Lab</a></li>
+  <li><a href="#exit-ticket" id="toc-exit-ticket" class="nav-link" data-scroll-target="#exit-ticket"><span class="header-section-number">6.8</span> Exit ticket</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../slides/01_orientasi.html">Slide Perkuliahan</a></li><li class="breadcrumb-item"><a href="../slides/01_orientasi.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Teknologi Cerdas</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Mahasiswa</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Teknologi Cerdas</span></h1>
+<p class="subtitle lead">Minggu 1 — Orientasi dan Reference Architecture</p>
 </div>
 
 
@@ -363,147 +372,134 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="fork-dan-identitas" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="fork-dan-identitas"><span class="header-section-number">3.1</span> 1. Fork dan identitas</h2>
-<ol type="1">
-<li>Klik <strong>Fork</strong> pada repository kelas.</li>
-<li>Gunakan nama repository sesuai format yang ditetapkan dosen.</li>
-<li>Clone fork ke komputer.</li>
-<li>Tambahkan identitas di bawah ini.</li>
-</ol>
+<section id="minggu-1" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Minggu 1</h1>
+<section id="teknologi-cerdas-bukan-satu-model" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="teknologi-cerdas-bukan-satu-model"><span class="header-section-number">6.1</span> Teknologi Cerdas bukan satu model</h2>
+<pre class="text"><code>Masalah
+  ↓
+Data
+  ↓
+BI
+  ↓
+ML
+  ↓
+LLM
+  ↓
+Aplikasi
+  ↓
+Keputusan manusia</code></pre>
+<hr>
+</section>
+<section id="pertanyaan-pembuka" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="pertanyaan-pembuka"><span class="header-section-number">6.2</span> Pertanyaan pembuka</h2>
+<ul>
+<li>Apakah spreadsheet dengan <code>IF()</code> bisa cerdas?</li>
+<li>Apakah model ML tanpa UI berguna?</li>
+<li>Apakah chatbot tanpa data bisnis adalah BI?</li>
+<li>Kapan rule lebih baik daripada ML?</li>
+</ul>
+<hr>
+</section>
+<section id="empat-jenis-kemampuan" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="empat-jenis-kemampuan"><span class="header-section-number">6.3</span> Empat jenis kemampuan</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Item</th>
-<th>Isi mahasiswa</th>
+<th>Lapisan</th>
+<th>Pertanyaan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nama</td>
-<td>TODO</td>
-</tr>
-<tr class="even">
-<td>NIM</td>
-<td>TODO</td>
-</tr>
-<tr class="odd">
-<td>Kelas</td>
-<td>TODO</td>
-</tr>
-<tr class="even">
-<td>URL repository</td>
-<td>TODO</td>
-</tr>
-<tr class="odd">
-<td>Jalur</td>
-<td>Reproduce / Adapt / Create</td>
-</tr>
-<tr class="even">
-<td>Judul sementara</td>
-<td>TODO</td>
-</tr>
-</tbody>
-</table>
-<p>Jangan mengubah riwayat Git repository sumber. Simpan pekerjaan pada fork sendiri dan commit secara berkala.</p>
-</section>
-<section id="branch-dan-commit" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="branch-dan-commit"><span class="header-section-number">3.2</span> 2. Branch dan commit</h2>
-<p>Branch <code>main</code> harus selalu berisi versi yang dapat diperiksa. Untuk perubahan besar, gunakan branch fitur, misalnya:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> switch <span class="at">-c</span> feat/data-preparation</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"feat: tambah validasi dan pembersihan data"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> switch main</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge feat/data-preparation</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Pesan commit yang disarankan: <code>docs:</code>, <code>data:</code>, <code>feat:</code>, <code>fix:</code>, <code>test:</code>, atau <code>experiment:</code>.</p>
-</section>
-<section id="memilih-jalur" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="memilih-jalur"><span class="header-section-number">3.3</span> 3. Memilih jalur</h2>
-<section id="reproduce" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="reproduce"><span class="header-section-number">3.3.1</span> Reproduce</h3>
-<p>Kerjakan langsung pada salinan folder <code>simulation/</code>. Catat environment, output, dua eksperimen perubahan parameter/threshold, dan penjelasan kode. Mengubah warna dashboard atau nama variabel saja bukan adaptasi substantif.</p>
-</section>
-<section id="adapt" class="level3" data-number="3.3.2">
-<h3 data-number="3.3.2" class="anchored" data-anchor-id="adapt"><span class="header-section-number">3.3.2</span> Adapt</h3>
-<p>Kerjakan pada <code>proyek_adaptasi/</code>. Dataset, target/problem, semantik, validasi, fitur, evaluasi, prompt, dan tampilan harus disesuaikan. Ikuti README di folder tersebut.</p>
-</section>
-<section id="create" class="level3" data-number="3.3.3">
-<h3 data-number="3.3.3" class="anchored" data-anchor-id="create"><span class="header-section-number">3.3.3</span> Create</h3>
-<p>Kerjakan pada <code>proyek_orisinal/</code>. Mulai dari proposal dan data card sebelum menulis sistem. Problem, provenance data, baseline, eksperimen, evaluasi, dan kontribusi harus dirancang sendiri.</p>
-</section>
-</section>
-<section id="bukti-perkembangan" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="bukti-perkembangan"><span class="header-section-number">3.4</span> 4. Bukti perkembangan</h2>
-<p>Setiap milestone minimal menghasilkan:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Milestone</th>
-<th>Bukti yang disimpan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Problem framing</td>
-<td>problem statement, stakeholder, keputusan, success criteria</td>
-</tr>
-<tr class="even">
 <td>Data</td>
-<td>tautan/sumber, lisensi, data dictionary, pemeriksaan kualitas</td>
-</tr>
-<tr class="odd">
-<td>BI</td>
-<td>tabel/grafik dan interpretasi yang menjawab pertanyaan</td>
+<td>Apa yang terjadi / tercatat?</td>
 </tr>
 <tr class="even">
-<td>ML baseline</td>
-<td>konfigurasi, split, metrik, confusion matrix/error analysis</td>
+<td>BI</td>
+<td>Bagaimana keadaan dan polanya?</td>
 </tr>
 <tr class="odd">
-<td>Model lanjut</td>
-<td>perbandingan adil terhadap baseline</td>
+<td>ML</td>
+<td>Apa yang mungkin terjadi / kelas apa?</td>
 </tr>
 <tr class="even">
 <td>LLM</td>
-<td>prompt, evidence yang dikirim, uji groundedness/usefulness</td>
-</tr>
-<tr class="odd">
-<td>Aplikasi</td>
-<td>instruksi menjalankan dan screenshot/demo</td>
-</tr>
-<tr class="even">
-<td>Final</td>
-<td>paper, daftar kontribusi, keterbatasan, commit/tag rilis</td>
+<td>Bagaimana evidence dijelaskan lewat bahasa?</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
-<section id="checklist-sebelum-pengumpulan" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="checklist-sebelum-pengumpulan"><span class="header-section-number">3.5</span> 5. Checklist sebelum pengumpulan</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">Identitas, judul, dan jalur sudah diisi.</label></li>
-<li><label><input type="checkbox">README proyek menjelaskan setup dan perintah menjalankan.</label></li>
-<li><label><input type="checkbox">Sumber, lisensi/izin, dan tanggal akses data terdokumentasi.</label></li>
-<li><label><input type="checkbox">Tidak ada password, token, API key, atau data pribadi di Git.</label></li>
-<li><label><input type="checkbox">Train/test split dilakukan sebelum transformasi yang dapat menyebabkan leakage.</label></li>
-<li><label><input type="checkbox">Baseline dan metrik sesuai dengan problem serta distribusi target.</label></li>
-<li><label><input type="checkbox">Hasil dapat dibuat ulang dari source code.</label></li>
-<li><label><input type="checkbox">Klaim paper sama dengan output kode terakhir.</label></li>
-<li><label><input type="checkbox">Penggunaan AI dan kontribusi pihak lain diungkapkan.</label></li>
-<li><label><input type="checkbox">Keterbatasan dan risiko etika ditulis.</label></li>
-<li><label><input type="checkbox">Aplikasi berhasil dijalankan pada environment bersih.</label></li>
-<li><label><input type="checkbox">Versi final diberi Git tag sesuai aturan kelas.</label></li>
-</ul>
+<section id="reference-project" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="reference-project"><span class="header-section-number">6.4</span> Reference project</h2>
+<pre class="text"><code>customers.csv
+orders.csv
+product_summary.csv
+monthly_revenue.csv
+        ↓
+data_prep.py
+        ↓
+ml_model.py
+        ↓
+vai_analyst.py
+        ↓
+app.py</code></pre>
+<hr>
 </section>
-<section id="yang-dikumpulkan" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="yang-dikumpulkan"><span class="header-section-number">3.6</span> 6. Yang dikumpulkan</h2>
-<p>Kumpulkan URL fork dan tag/commit final. Dataset besar, model, atau video dapat disimpan di penyimpanan eksternal; repository tetap harus memuat tautan, checksum/versi, serta instruksi untuk memperolehnya secara sah.</p>
+<section id="kontrak-belajar" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="kontrak-belajar"><span class="header-section-number">6.5</span> Kontrak belajar</h2>
+<p>Mahasiswa tidak cukup mengatakan:</p>
+<blockquote class="blockquote">
+<p>“Kode berhasil dijalankan.”</p>
+</blockquote>
+<p>Mahasiswa harus dapat menjawab:</p>
+<ol type="1">
+<li>Apa input?</li>
+<li>Apa output?</li>
+<li>Apa asumsi?</li>
+<li>Mengapa desain ini dipilih?</li>
+<li>Apa kegagalannya?</li>
+<li>Bagaimana menguji?</li>
+</ol>
+<hr>
+</section>
+<section id="originality-ladder" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="originality-ladder"><span class="header-section-number">6.6</span> Originality ladder</h2>
+<section id="c-reproduce" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="c-reproduce"><span class="header-section-number">6.6.1</span> C — REPRODUCE</h3>
+<p>Ulangi dan pahami.</p>
+</section>
+<section id="b-adapt" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="b-adapt"><span class="header-section-number">6.6.2</span> B — ADAPT</h3>
+<p>Ganti dataset Kaggle dan sesuaikan seluruh pipeline.</p>
+</section>
+<section id="a-create" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="a-create"><span class="header-section-number">6.6.3</span> A — CREATE</h3>
+<p>Problem, data, dan kode dikembangkan sendiri.</p>
+<hr>
+</section>
+</section>
+<section id="lab" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="lab"><span class="header-section-number">6.7</span> Lab</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv .venv</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># activate environment</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install pandas scikit-learn joblib streamlit ollama</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> data_prep.py</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> ml_model.py</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="ex">streamlit</span> run app.py</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="exit-ticket" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="exit-ticket"><span class="header-section-number">6.8</span> Exit ticket</h2>
+<p>Tuliskan dengan satu kalimat:</p>
+<blockquote class="blockquote">
+<p>“Bagian paling ‘cerdas’ dari reference project adalah ___ karena ___.”</p>
+</blockquote>
+<p>Tidak ada jawaban tunggal; yang dinilai adalah reasoning.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -532,12 +528,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Disalin!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Disalin!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -909,13 +905,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./PENGANTAR_KULIAH.html" class="pagination-link" aria-label="Pengantar Kuliah Teknologi Cerdas">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pengantar Kuliah Teknologi Cerdas</span></span>
+      <a href="../RPS_Teknologi_Cerdas.html" class="pagination-link" aria-label="Rencana Pembelajaran Semester — Teknologi Cerdas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Rencana Pembelajaran Semester — Teknologi Cerdas</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./RPS_Teknologi_Cerdas.html" class="pagination-link" aria-label="Rencana Pembelajaran Semester — Teknologi Cerdas">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Rencana Pembelajaran Semester — Teknologi Cerdas</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../slides/02_kaggle_problem_framing.html" class="pagination-link" aria-label="Kaggle &amp; Problem Framing">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Kaggle &amp; Problem Framing</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
